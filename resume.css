@@ -1,6 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
+    font-size: 12;
 }
 
 .header {
@@ -25,7 +26,6 @@ body {
 .location {
     display: flex;
     justify-content: space-between;
-    font-size: 1.2em;
 }
 
 .company {
@@ -35,20 +35,23 @@ body {
 .title_dates {
     display: flex;
     justify-content: space-between;
-    font-size: 1.2em;
     margin: 5px 0;
 }
 
-h2 {
+h1 {
     font-size: 1.2em;
+}
+
+h2 {
     margin-bottom: 1px;
+    font-size: 1em;
 }
 
 h3 {
-    font-size: 1.2em;
     margin-bottom: 1px;
     font-weight: normal;
     font-style: italic;
+    font-size: 1em;
 }
 
 hr {
@@ -56,15 +59,15 @@ hr {
     margin-bottom: 2px;
 }
 
-p {
-    font-size: 1.2em;
+br {
+    margin: 5px 0;
+    line-height: 1;
 }
 
 ul {
     list-style-type: disc;
     margin-left: 0px;
     margin-top: 1px;
-    font-size: 1.2em;
 }
 
 li {
